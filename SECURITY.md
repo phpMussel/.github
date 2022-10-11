@@ -25,7 +25,7 @@ In cases where reporting to the issues page or to publicly accessible channels w
 ## Currently Known Vulnerabilities
 
 ### Phar unserialization vulnerability.
-- **Description:** phpMussel's *former* reliance upon PHP's phar wrapper for reading archives means that an unserialization vulnerability in PHP's phar wrapper is exploitable at the affected phpMussel versions. There aren't any known cases of exploitation in the wild, but uploading a specially crafted file to an affected version allows arbitrary code execution (discovered, tested, and confirmed by [myself](https://github.com/Maikuolan)), so the risk factor should be regarded as __very high__. Newer phpMussel versions don't use PHP's phar wrapper, and are therefore unaffected.
+- **Description:** phpMussel's *former* reliance upon PHP's phar wrapper for reading archives means that an unserialization vulnerability in PHP's phar wrapper is exploitable at the affected phpMussel versions. There aren't any known cases of exploitation in the wild, but uploading a specially crafted file to an affected version allows arbitrary code execution (discovered, tested, and confirmed by [the package author](https://github.com/Maikuolan)), so the risk factor should be regarded as __very high__. Newer phpMussel versions don't use PHP's phar wrapper, and are therefore unaffected.
 - **Related issues:** [#167](https://github.com/phpMussel/phpMussel/issues/167)
 - **GitHub Security Advisory:** [GHSA-qr95-4mq5-r3fh](https://github.com/phpMussel/phpMussel/security/advisories/GHSA-qr95-4mq5-r3fh)
 - **CVE:** [CVE-2020-4043](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4043)
