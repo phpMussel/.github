@@ -4,7 +4,7 @@
 
 If you want to report bugs, suggest new features, etc, you should start at the [issues](https://github.com/phpMussel/phpMussel/issues) page. Any already reported bugs, requested features, progress checklists, ideas, project discussions, etc should available there, and everyone is welcome to participate and contribute. If you have something to add, whether for an existing issue or a new issue, feel free to do so.
 
-The project is open-source, released by its author under the [GNU/GPLv2 license](https://github.com/phpMussel/phpMussel/blob/v2/LICENSE.txt), so if you want fork/copy the project and to make your own modifications, you're welcome to do so. If you feel that your modifications could be beneficial to the project and its community, consider sending a pull request to the repository where those modifications are to take effect (include a description with pull requests, so that we know what we're looking at) so that we can review your modifications and consider integrating them as part of the project.
+The project is open-source, released by its author under the [GNU/GPLv2 license](https://github.com/phpMussel/phpMussel/blob/v3/LICENSE.txt), so if you want fork/copy the project and to make your own modifications, you're welcome to do so. If you feel that your modifications could be beneficial to the project and its community, consider sending a pull request to the repository where those modifications are to take effect (include a description with pull requests, so that we know what we're looking at) so that we can review your modifications and consider integrating them as part of the project.
 
 Anyone interested in contributing to the project is encouraged to do so.
 
@@ -40,7 +40,7 @@ All YAML files, and all YAML data attached to the project, SHOULD indent (when i
 
 All functions, methods, and closures within PHP files MUST be properly and accurately annotated by an attached DocBlock. All PHP files MUST contain a DocBlock header, to describe the general nature of the file. All attached DocBlocks SHOULD be concise, and SHOULD NOT be overly verbose (i.e., containing more than necessary). All comments in all PHP files and code MUST conform to PHPDoc (i.e., as DocComments). Where the purpose and intent of some particular code is highly obtuse, unclear, or not easily understood, it SHOULD be commented. Where the purpose and intent of some particular code is highly transparent and easily stood (and where not otherwise already dictated by this document), it SHOULD NOT be commented (i.e., let's avoid useless information). All annotation, and all comments, MUST be written in English.
 
-From v2 onward, all phpMussel configuration directives MUST be named in accordance with *[snake case](https://en.wikipedia.org/wiki/Snake_case)* (i.e., lowercase, and words separated by an underscore), and MUST NOT be named using any characters other than standard English letters (A through Z) and underscores (previous major versions are exempt from this, due to that they were tagged/release prior to the creation of this document).
+All phpMussel configuration directives MUST be named in accordance with *[snake case](https://en.wikipedia.org/wiki/Snake_case)* (i.e., lowercase, and words separated by an underscore), and MUST NOT be named using any characters other than standard English letters (A through Z) and underscores (previous major versions are exempt from this, due to that they were tagged/release prior to the creation of this document).
 
 ### **phpMussel version release guidelines.**
 
@@ -77,4 +77,4 @@ For the [documentation repository](https://github.com/phpMussel/Docs), "master" 
 ---
 
 
-Last Updated: 5 July 2021 (2021.07.05).
+Last Updated: 1 March 2023 (2023.03.01).
